@@ -6,7 +6,7 @@ Pipeline {
                steps {
                    sh 'echo "hello world"'
                    sh '''
-                       echo "multiple shell
+                       echo "multiple shell stpe works too"
                        ls -lah
                     '''
                 }
